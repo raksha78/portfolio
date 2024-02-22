@@ -2,13 +2,14 @@
 import './Intro.css';
 
 import { resumeLink } from './constants';
+import person from './images/memoji_1.png';
 
 function Hero({ setPage }) {
     return (
         <div className="portfolio-container">
             <div className="intro">
                 <div className="intro__image">
-                    <img src="src/images/memoji_1.png" alt="Rakshitha's memoji" className="intro__image-content" />
+                    <img src={person} alt="Rakshitha's memoji" className="intro__image-content" />
                 </div>
                 <div className="intro__content">
                     <h1 className="intro__title">Hey there! { }Welcome to my portfolio!</h1>

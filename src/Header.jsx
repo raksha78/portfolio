@@ -11,7 +11,7 @@ function Header({ setPage }) {
 
   return (
     <div className="header">
-      <a onClick={changePage} href={`/`} className="header__name">RAKSHITHA GURURAJ</a>
+      <a onClick={changePage} href={`/portfolio`} className="header__name">RAKSHITHA GURURAJ</a>
       <nav className="header__nav">
         <ul className="header__list">
           {headerItems.map((item) => (

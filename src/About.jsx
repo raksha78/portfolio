@@ -3,15 +3,18 @@
 import { experience } from './constants.js';
 
 import './About.css';
+import scenic from './images/scenic.jpg';
+import person from './images/raksha.jpg';
+import sunset from './images/sunset.jpg';
 
 function About() {
   return (
     <>
       <div className="profile">
         <div className="photo__container">
-          <div><img className="profile__photo-img " src="src/images/scenic.jpg" alt="scenic picture"></img></div>
-          <div><img className="profile__photo-img " src="src/images/raksha.jpg" alt="rakshitha's picture"></img></div>
-          <div><img className="profile__photo-img " src="src/images/sunset.jpg" alt="sunset picture"></img></div>
+          <div><img className="profile__photo-img" src={scenic} alt="scenic picture"></img></div>
+          <div><img className="profile__photo-img" src={person} alt="rakshitha's picture"></img></div>
+          <div><img className="profile__photo-img" src={sunset} alt="sunset picture"></img></div>
         </div>
         <div className="profile__container">
           <div className="profile__intro">

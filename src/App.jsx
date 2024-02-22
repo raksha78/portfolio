@@ -31,7 +31,7 @@ function App() {
     <div className='app'>
       <Header setPage={setPage} />
       <main>
-        {page === '/' && <Hero setPage={setPage} />}
+        {(page === '/portfolio/' || page === '/' || page === '/portfolio') && <Hero setPage={setPage} />}
         {page === '/About' && <About />}
         {page === '/Projects' && <Project />}
         {page === '/Contact' && <Contact />}
