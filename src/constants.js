@@ -61,7 +61,7 @@ export const projects = [
         role: ['UI/UX Designer', 'Full-stack Engineer'],
         description: `This sleek ReactJS website showcases my web development projects and skills. Explore my accomplishments and delve into UI/UX design for a seamless user experience. From concept to implementation, I prioritize visually appealing and user-centric designs, reflecting my passion and expertise`,
         techStack: ['express', 'javascript', 'HTML', 'css', 'react'],
-        link: 'https://github.com/raksha78',
+        link: 'https://github.com/raksha78/portfolio',
         videoLink: portfolioVideo,
         background: 'cadefc',
     },
