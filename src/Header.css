@@ -1,0 +1,39 @@
+li {
+    list-style: none;
+}
+
+a {
+    color: #3c1b1f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #734444;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 16px #dfd3c3;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header__name {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__list-item {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
