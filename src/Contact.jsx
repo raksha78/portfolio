@@ -3,7 +3,7 @@ import parse from 'html-react-parser';
 
 import "./Contact.css";
 
-import { linkedIn, resumeLink } from './constants';
+import { linkedIn, resumeLink, githubLink } from './constants';
 
 function Contact() {
     return (
@@ -16,15 +16,15 @@ function Contact() {
                 </span>
                 <span className="footer__item item-c7b198">
                     <span className="footer_subtext ">CONNECT WITH ME 🤝</span>
-                    { parse(`<a className="footer__work-link" href=${linkedIn}>LinkedIn</a>`) }
+                    { parse(`<a className="footer__work-link" href=${linkedIn} target="_blank" rel="noreferrer">LinkedIn</a>`) }
                 </span>
                 <span className="footer__item item-cabfab">
                     <span className="footer_subtext">DOWNLOAD MY RESUME 📥</span> 
-                    { parse(`<a className="footer__work-link" href=${resumeLink}>Resume</a>`) }
+                    { parse(`<a className="footer__work-link" href=${resumeLink} target="_blank" rel="noreferrer">Resume</a>`) }
                 </span>
                 <span className="footer__item item-8f8787">
                     <span className="footer_subtext">VIEW MY WORK 💼</span> 
-                    { parse(`<a className="footer__work-link" href="">Github</a>`) }
+                    { parse(`<a className="footer__work-link" href=${githubLink} target="_blank" rel="noreferrer">Github</a>`) }
                 </span>
             </div>
             <span className="footer__made-by">Made by Rakshitha Gururaj © 2024</span>

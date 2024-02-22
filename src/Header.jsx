@@ -15,7 +15,7 @@ function Header({ setPage }) {
       <nav className="header__nav">
         <ul className="header__list">
           {headerItems.map((item) => (
-            <a onClick={changePage} href={`/${item}`} className="header__list-item">{item}</a>
+            <a onClick={changePage} href={`/${item}`} className="header__list-item">{item.split('/')[2]}</a>
           ))}
         </ul>
       </nav>

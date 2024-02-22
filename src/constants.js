@@ -5,13 +5,15 @@ import chatVideo from './images/chat.mov';
 import wordgameVideo from './images/word-guess.mov';
 
 
-export const headerItems = ['Projects', 'About', 'Contact'];
+export const headerItems = ['/portfolio/Projects', '/portfolio/About', '/portfolio/Contact'];
 
 export const footerItems = ['linkedIn'];
 
 export const resumeLink = "https://docs.google.com/document/d/1Xt6JBZhwX61cAITw7adNGqf0mbxArxva/edit?usp=sharing&ouid=102917169289525932659&rtpof=true&sd=true";
 
 export const linkedIn = "https://www.linkedin.com/in/rakshitha-gururaj/";
+
+export const githubLink = "https://github.com/raksha78/";
 
 
 export const experience = [

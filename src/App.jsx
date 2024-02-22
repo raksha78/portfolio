@@ -32,9 +32,9 @@ function App() {
       <Header setPage={setPage} />
       <main>
         {(page === '/portfolio/' || page === '/' || page === '/portfolio') && <Hero setPage={setPage} />}
-        {page === '/About' && <About />}
-        {page === '/Projects' && <Project />}
-        {page === '/Contact' && <Contact />}
+        {(page === '/About' || page === '/portfolio/About') && <About />}
+        {(page === '/Projects' || page === '/portfolio/Projects') && <Project />}
+        {(page === '/Contact' || page === '/portfolio/Contact') && <Contact />}
       </main>
     </div>
   )
